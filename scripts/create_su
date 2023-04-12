@@ -1,0 +1,3 @@
+#!/bin/sh
+
+DJANGO_SUPERUSER_PASSWORD=1234 python manage.py createsuperuser --user admin --email "admin@admin.com" --noinput
